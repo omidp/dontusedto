@@ -13,6 +13,8 @@ mvn clean install
 ```
 
 ```
+git clone https://github.com/omidp/dontusedto.git
+cd dontusedto
 mvn clean package
 ```
 
@@ -47,10 +49,10 @@ How to run
 
 This project is using h2 database. you only need : 
 
-* populate data. run this file.
-* run this file to see the result in console.
+* populate data. run [this file](https://github.com/omidp/dontusedto/blob/master/src/main/java/org/omidbiz/hibernate/PopulateData.java).
+* run [this file](https://github.com/omidp/dontusedto/blob/master/src/main/java/org/omidbiz/hibernate/Run.java) to see the result in console.
 
-the result is :
+The result is :
 
 Serialized  google view
 
